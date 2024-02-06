@@ -142,7 +142,7 @@ def United_States_number(country_code):
     # Close the file
     file.close()
 
-if __name__ == '__main__':
+def main():
     # Calling the function based on the parsed arguments
     try:
         if args.baba_blue:
@@ -157,3 +157,7 @@ if __name__ == '__main__':
         print('Program terminated!!! :) Have a nice day ostronics ♥')
         time.sleep(3)
         quit()
+
+
+if __name__ == '__main__':
+    main()
